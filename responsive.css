@@ -1,0 +1,147 @@
+/* Meida quries for repeated style classes */
+@media screen and (max-width:560px){
+    .font-size-secondary{
+        font-size: 15px;
+    }
+    .btn{
+        width: 10rem;
+    }
+}
+/* Media query for background */
+@media screen and (max-width:1120px){
+    .header{
+    height: auto;
+}
+}
+/* Media Quries for Navbar  */
+@media screen and (max-width:1700px) {
+    .nav-items-container{
+        margin: 0 10rem;
+    }
+}
+@media screen and (max-width:1300px) {
+    .nav-items-container{
+        margin: 0 2rem;
+    }
+}
+@media screen and (max-width:560px){
+    .nav-items-container{
+        margin: 0 0.8rem;
+    }
+    .logo img{
+        height: 80px;
+    }
+}
+/* Media Quries for Hamburger menu */
+@media screen and (max-width:920px){
+    .nav-links{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+/* Media queries for hero section */
+@media screen and (max-width:1060px) {
+
+}
+@media screen and (max-width:1120px){
+    .hero{
+        padding: 2rem 10rem 5rem 10rem;
+    }
+    .hero h1{
+       font-size: 45px;
+    }
+    .hero h3{
+        font-size: 25px ;
+
+    }
+}
+@media screen and (max-width:840px){
+    .hero{
+    padding: 2rem 2rem 5rem 2rem;
+    }
+}
+@media screen and (max-width:560px){
+    .hero h1{
+        font-size: 35px;
+     }
+     .hero h3{
+         font-size: 22px ;
+     }
+     .hero p{
+        font-size: 15px;
+     }
+}
+@media screen and (max-width:400px){
+    .hero h1{
+        white-space: normal;
+        }
+}
+/* Media Quries for services section */
+@media screen and (max-width:1490px){
+    .service-card-container,.service-description-container{
+    padding: 4rem 1rem  0 1rem;
+    }
+    .service-description-container{
+        padding: 4rem 1rem;
+    }
+}
+@media screen and (max-width:1120px){
+    .service-card-container{
+        grid-template-rows: 17rem;
+        }
+}
+@media screen and (max-width:840px){
+    .service-card-container{
+        grid-template-rows: repeat(3,17rem);
+        grid-template-columns: 100%;
+        row-gap: 1rem;
+        }
+}
+@media screen and (max-width:560px){
+    .font-size-secondary{
+        font-size: 15px;
+    }
+}
+/* Media Quries for Carousel */
+@media screen and (max-width:1490px){
+    .grid-carousel{
+        padding: 4rem 1rem;
+    }
+}
+@media screen and (max-width:1120px){
+    .grid-carousel{
+        grid-template-rows: repeat(2,12rem);
+        grid-template-columns: repeat(3,minmax(0,20rem));
+        }
+}
+@media screen and (max-width:750px){
+    .grid-carousel{
+        grid-template-rows: repeat(3,32%);
+        grid-template-columns: repeat(2,48%);
+        }
+}
+@media screen and (max-width:500px){
+    .grid-carousel{
+        grid-template-rows: repeat(6,16%);
+        grid-template-columns: 100%;
+        }
+}
+/* Media quries for footer */
+@media screen and (max-width:1260px){
+    .footer{
+        padding: 0 1rem;
+    }
+}
+@media screen and (max-width:720px){
+        .blocks-container{
+            flex-direction: column;
+        }
+        .block{
+            width: 95%;
+        }
+        .block h4{
+            margin-top: 2rem;
+        }
+}
