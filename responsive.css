@@ -59,7 +59,7 @@
 }
 @media screen and (max-width:840px){
     .hero{
-    padding: 2rem 2rem 5rem 2rem;
+    padding: 2vh 2vh 8vh 2vh;
     }
 }
 @media screen and (max-width:560px){
