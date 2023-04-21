@@ -135,7 +135,7 @@ nav{
 
 /* *******************Hero-section************************** */
 .hero{
-    height: 85%;
+    height: auto;
     text-align: center;
     padding: 10% 25% 15% 25%;;
 }
