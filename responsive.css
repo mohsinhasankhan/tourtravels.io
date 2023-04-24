@@ -1,17 +1,20 @@
 /* Meida quries for repeated style classes */
 @media screen and (max-width:560px){
     .font-size-secondary{
-        font-size: 15px;
+        font-size: 14px;
     }
     .btn{
-        width: 10rem;
+        height: 2.8rem;
+        width: 9rem;
     }
 }
 /* Media query for background */
 @media screen and (max-width:1120px){
     .header{
-    height: auto;
+        height: auto;
 }
+}
+@media screen and (max-width:340px){
 }
 /* Media Quries for Navbar  */
 @media screen and (max-width:1700px) {
@@ -42,8 +45,10 @@
     }
 }
 /* Media queries for hero section */
-@media screen and (max-width:1060px) {
-
+@media screen and (max-width:920px) {
+   .btn-hero-2{
+    display: inline-flex;
+   }
 }
 @media screen and (max-width:1120px){
     .hero{
@@ -59,7 +64,7 @@
 }
 @media screen and (max-width:840px){
     .hero{
-    padding: 2vh 2vh 8vh 2vh;
+    padding: 2vh 4vh 8vh 4vh;
     }
 }
 @media screen and (max-width:560px){

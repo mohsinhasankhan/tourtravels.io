@@ -13,7 +13,5 @@ hamburger.addEventListener('click',()=>{
     else{
         crossicon.style.display="none"
         openicon.style.display="block"
-
     }
-
 })
